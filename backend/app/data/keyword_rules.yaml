@@ -1,0 +1,88 @@
+rules:
+  - pattern: "\\b(news|breaking|headline|article|report|journalist)\\b"
+    category: news
+    confidence: 0.7
+
+  - pattern: "\\b(shop|cart|checkout|buy|order|product|price|deal|sale|discount|coupon)\\b"
+    category: shopping
+    confidence: 0.8
+
+  - pattern: "\\b(watch|video|stream|episode|movie|show|trailer|clip|playlist)\\b"
+    category: entertainment
+    confidence: 0.6
+
+  - pattern: "\\b(code|programming|developer|api|sdk|library|framework|debug|deploy)\\b"
+    category: development
+    confidence: 0.8
+
+  - pattern: "\\b(github|gitlab|bitbucket|repository|commit|pull request|merge|branch)\\b"
+    category: development
+    confidence: 0.9
+
+  - pattern: "\\b(stackoverflow|stack overflow|error|exception|bug|fix|solved)\\b"
+    category: development
+    confidence: 0.85
+
+  - pattern: "\\b(learn|tutorial|course|lesson|education|study|exam|quiz|certificate)\\b"
+    category: learning
+    confidence: 0.75
+
+  - pattern: "\\b(wikipedia|wiki|encyclopedia|definition|meaning|history of)\\b"
+    category: learning
+    confidence: 0.7
+
+  - pattern: "\\b(login|sign in|account|profile|settings|dashboard)\\b"
+    category: work
+    confidence: 0.5
+
+  - pattern: "\\b(email|inbox|compose|send|reply|forward|attachment)\\b"
+    category: communication
+    confidence: 0.8
+
+  - pattern: "\\b(chat|message|conversation|call|meeting|video call)\\b"
+    category: communication
+    confidence: 0.75
+
+  - pattern: "\\b(bank|payment|transfer|balance|statement|transaction|credit|debit)\\b"
+    category: finance
+    confidence: 0.85
+
+  - pattern: "\\b(invest|stock|crypto|bitcoin|trading|portfolio|dividend|etf)\\b"
+    category: finance
+    confidence: 0.8
+
+  - pattern: "\\b(health|medical|doctor|symptom|diagnosis|treatment|medicine|prescription)\\b"
+    category: health
+    confidence: 0.8
+
+  - pattern: "\\b(fitness|workout|exercise|gym|nutrition|diet|calories|weight)\\b"
+    category: health
+    confidence: 0.75
+
+  - pattern: "\\b(hotel|flight|booking|reservation|trip|travel|vacation|airport|airline)\\b"
+    category: travel
+    confidence: 0.85
+
+  - pattern: "\\b(recipe|cook|ingredient|restaurant|food|meal|dinner|lunch|breakfast)\\b"
+    category: food
+    confidence: 0.8
+
+  - pattern: "\\b(game|gaming|play|level|score|multiplayer|esports|gamer)\\b"
+    category: gaming
+    confidence: 0.75
+
+  - pattern: "\\b(social|friend|follow|like|share|post|comment|feed|story|status)\\b"
+    category: social
+    confidence: 0.6
+
+  - pattern: "\\b(job|career|resume|interview|hire|salary|work|employment|recruiter)\\b"
+    category: work
+    confidence: 0.8
+
+  - pattern: "\\b(porn|xxx|adult|nsfw|18\\+|explicit)\\b"
+    category: adult
+    confidence: 0.95
+
+  - pattern: "\\b(search|results|query|find|lookup)\\b"
+    category: search
+    confidence: 0.5

@@ -1,0 +1,10 @@
+export { IntroSlide } from "./IntroSlide";
+export { TotalsSlide } from "./TotalsSlide";
+export { TopSitesSlide } from "./TopSitesSlide";
+export { PeakHourSlide } from "./PeakHourSlide";
+export { SessionSlide } from "./SessionSlide";
+export { DayOfWeekSlide } from "./DayOfWeekSlide";
+export { CategoriesSlide } from "./CategoriesSlide";
+export { HeatmapSlide } from "./HeatmapSlide";
+export { PersonalitySlide } from "./PersonalitySlide";
+export { FinaleSlide } from "./FinaleSlide";

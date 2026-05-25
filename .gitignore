@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.egg-info/
+.eggs/
+
+# Build outputs
+dist/
+.next/
+.output/
+.wxt/
+out/
+build/
+
+# Turbo
+.turbo/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+coverage/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Python virtual env
+venv/
+.venv/
+env/

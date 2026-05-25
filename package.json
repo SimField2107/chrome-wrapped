@@ -1,0 +1,25 @@
+{
+  "name": "chrome-wrapped",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Spotify Wrapped-style Chrome extension for browsing history insights",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\"",
+    "type-check": "turbo type-check"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.1.0",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
